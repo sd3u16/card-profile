@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+
+:root{
+    --MAIN-BG: #F5F5F5;
+    --PARA-CO: #4A4E74;
+    --TITLE-CO: #2B283A;
+    --FOOTER-BG: #D5D4D8;
+
+
+}
+
+@media (prefers-color-scheme: dark) {
+
+    :root{
+        --MAIN-BG: #1A1B21;
+        --PARA-CO: #DCDCDC;
+        --TITLE-CO: white;
+        --FOOTER-BG: #161619;
+
+
+
+    }
+  
+  
+}
+
+.h1_text{
+    color: green;
+}
+
+
+
+.container{
+    width: 550px;
+    height: 868px;
+    background-color: #23252C;
+    margin: auto;
+    padding-top: 44px;
+}
+
+.inner{
+    width: 317px;
+    height: 780px;
+    margin: auto;
+    font-family: "Inter", sans-serif;
+    
+    
+}
+
+header{
+    width: 100%;
+    height: 317px;
+    background-image: url("cropped_girl.png.png");    
+    height: 317px;
+    width: 100%;
+/* extended code */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+main{
+    text-align: center;
+}
+
+.header_h2{
+    color: var(--TITLE-CO);
+    margin-bottom: 8px;
+}
+
+.header_p{
+    color: #F47D27;
+    font-size: 12.8px;
+    margin-bottom: 9px;
+}
+
+.header_web{
+    color: var(--PARA-CO);
+    font-size: 10.24px;
+    line-height: 150%;
+}
+
+main{
+    padding: 21px 35px ;
+    background-color: var(--MAIN-BG);
+}
+
+.btns{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.btn{
+    width: 115px;
+    height: 34px;
+    border-radius: 6px;
+    font-family: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    gap: 7px;
+    
+}
+
+.btn-email{
+    color: #374151;
+    font-size: 14px;
+    line-height: 16px;
+    background-color: white;
+}
+
+.btn-linkedin {
+    color: white;
+    font-size: 14px;
+    line-height: 16px;
+    background-color: #5093E2;
+}
+
+.main_h4, .main_p{
+    text-align: left;
+}
+
+.main_h4:first-of-type{
+    color: var(--TITLE-CO);
+    font-size: 16px;
+    line-height: 150%;
+    margin-top: 35px;
+    
+}
+
+.main_h4:last-of-type{
+    color: var(--TITLE-CO);
+    font-size: 16px;
+    line-height: 150%;
+    margin-top: 15px;
+}
+
+.main_p{
+    color: var(--PARA-CO);
+    font-size: 10.24px;
+    line-height: 150%;
+}
+
+footer{
+    background-color: var(--FOOTER-BG);
+    height: 64px;
+    color:  #918E9B;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+footer .fa-brands{
+    width: 25px;
+    height: 25px;
+}
+
+
